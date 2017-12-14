@@ -1,0 +1,15 @@
+$cssHelper: true;
+$devMode: true;
+
+@import "ed-grid";
+
+.main-header{
+  background: #2368b8;
+  color: #FFF;
+  padding: 0 1em 0 1em;
+  @include mainJustify;
+}
+
+.group-btn1{
+  @include crossCenter;
+}
